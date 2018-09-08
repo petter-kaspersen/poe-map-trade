@@ -1,0 +1,25 @@
+body,
+html   {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #393939;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  margin-left: 100px;
+}
+
+.main-nav-logo {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+

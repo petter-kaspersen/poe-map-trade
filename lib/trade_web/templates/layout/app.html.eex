@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Path of Exile Maps | Map trading made easy</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/index.css") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
+      <header>
+      <nav class="main-nav">
+        <a class="main-nav-logo" href="/">PoE Maps</a>
+      </nav>
+      </header>
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
