@@ -1,4 +1,4 @@
-defmodule TradeWeb.PageController do
+defmodule TradeWeb.TradeController do
   use TradeWeb, :controller
 
   def index(conn, _params) do
